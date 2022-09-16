@@ -35,9 +35,19 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   get: 
-
-
-
+  anim_search_bar: ^2.0.2
+  http: 
+  timelines: ^0.1.0
+  backdrop: ^0.8.1
+  custom_sliding_segmented_control: ^1.7.2
+  pin_code_text_field:
+  intl:
+  flutter_local_notifications: ^6.0.0
+  timezone:   
+  animated_splash_screen: ^1.3.0
+  percent_indicator: ^4.0.1
+  flutter_launcher_icons: ^0.10.0
+  url_launcher: 
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -53,6 +63,13 @@ dev_dependencies:
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter packages.
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon_myordertrack.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+
 flutter:
 
   # The following line ensures that the Material Icons font is
@@ -62,8 +79,11 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
+      - assets/
       - assets/banner-tracking.png
       
+      
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

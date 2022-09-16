@@ -22,5 +22,10 @@
   <string>1.0</string>
   <key>MinimumOSVersion</key>
   <string>9.0</string>
+  <key>LSApplicationQueriesSchemes</key>
+  <array>
+    <string>sms</string>
+    <string>tel</string>
+  </array>
 </dict>
 </plist>
