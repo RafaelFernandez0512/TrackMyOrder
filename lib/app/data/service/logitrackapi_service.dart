@@ -10,7 +10,7 @@ import 'package:track_my_order_app/app/data/model/shiptmentDrop.dart';
 
 class LogitrackApiService extends GetxService{
 
-  String _api = "http://74.208.144.74/OrderTrakApi/api"; 
+  String _api = ""; 
    
   Future<LogitrackApiService> init() async {
     return this;
